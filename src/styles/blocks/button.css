@@ -1,6 +1,7 @@
 .button {
   padding: 17px 54px;
   text-align: center;
+  font-weight: 500;
   display: inline-block;
   color: var(--color-secondary);
   border-radius: 3px;
@@ -11,6 +12,30 @@
   background-color: var(--color-red);
 }
 
-.button--primary:hover {
+.button--small-red {
+  padding: 17px 40px;
+  background-color: var(--color-red);
+}
+
+.button--small-green {
+  padding: 17px 40px;
+  background-color: var(--color-green);
+}
+
+.button--small-yellow {
+  padding: 17px 40px;
+  background-color: var(--color-yellow);
+}
+
+.button--primary:hover,
+.button--small-red:hover {
   background-color: #e74246;
+}
+
+.button--small-green:hover {
+  background-color: #00bc6c;
+}
+
+.button--small-yellow:hover {
+  background-color: #eab534;
 }
