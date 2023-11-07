@@ -1,0 +1,16 @@
+.button {
+  padding: 17px 54px;
+  text-align: center;
+  display: inline-block;
+  color: var(--color-secondary);
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.button--primary {
+  background-color: var(--color-red);
+}
+
+.button--primary:hover {
+  background-color: #e74246;
+}
