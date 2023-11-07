@@ -1,0 +1,25 @@
+.jumbotron {
+  background-color: var(--background-color-primary);
+  background-image: url("/images/nerds-index.webp");
+  background-repeat: no-repeat;
+  background-position: 85% 100%;
+  margin-bottom: 80px;
+  padding: 50px 80px;
+}
+
+.jumbotron__content-wrapper {
+  max-width: 600px;
+}
+
+.jumbotron__heading {
+  margin-bottom: 25px;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.jumbotron__description {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: #283136;
+  margin-bottom: 38px;
+}
