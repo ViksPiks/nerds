@@ -1,7 +1,3 @@
-.about-us {
-  margin: 73px 0;
-}
-
 .about-us__title {
   color: #283136;
   text-transform: uppercase;
@@ -10,7 +6,7 @@
 .about-us__txt {
   font-size: 45px;
   line-height: 100%;
-  margin-bottom: 32px;
+  margin: 32px 0;
 }
 
 .about-us__slogan {

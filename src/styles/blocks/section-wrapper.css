@@ -1,0 +1,7 @@
+.section-wrapper {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 100px;
+  padding: 39px 0 73px;
+  border-bottom: 2px solid #eee;
+}
