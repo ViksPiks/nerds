@@ -5,3 +5,9 @@
   padding: 39px 0 73px;
   border-bottom: 2px solid #eee;
 }
+
+@media (width <= 915px) {
+  .section-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

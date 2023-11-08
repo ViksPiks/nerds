@@ -33,3 +33,13 @@
 .about-us__list-item:not(:last-child) {
   margin-bottom: 25px;
 }
+
+@media (width <= 915px) {
+  .about-us {
+    text-align: center;
+  }
+
+  .about-us__list {
+    margin: 0 auto;
+  }
+}
