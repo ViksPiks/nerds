@@ -1,0 +1,39 @@
+.about-us {
+  margin: 73px 0;
+}
+
+.about-us__title {
+  color: #283136;
+  text-transform: uppercase;
+}
+
+.about-us__txt {
+  font-size: 45px;
+  line-height: 100%;
+  margin-bottom: 32px;
+}
+
+.about-us__slogan {
+  margin-bottom: 40px;
+}
+
+.about-us__list-item::before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: var(--color-red);
+}
+
+.about-us__list-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.about-us__list-item:first-child {
+  margin-top: 25px;
+}
+
+.about-us__list-item:not(:last-child) {
+  margin-bottom: 25px;
+}
