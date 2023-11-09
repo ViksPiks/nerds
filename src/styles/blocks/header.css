@@ -5,12 +5,13 @@
   font-family: Roboto, sans-serif;
   font-weight: 500;
   margin-bottom: 80px;
-}
-
-.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header__hamburger {
+  display: none;
 }
 
 .header__list {
@@ -36,4 +37,15 @@
 .header__link:hover,
 .header__cart-btn:hover {
   color: var(--color-red);
+}
+
+@media (width <= 810px) {
+  .header__hamburger {
+    display: block;
+  }
+
+  .header__list,
+  .main-logo {
+    display: none;
+  }
 }

@@ -18,26 +18,36 @@
     <div class="jumbotron">
       <div class="container">
         <header class="header">
+          <button
+            type="button"
+            class="hamburger header__hamburger"
+            aria-label="Open navigation menu"
+          >
+            <span class="hamburger__bar hamburger__bar--1"></span>
+            <span class="hamburger__bar hamburger__bar--2"></span>
+            <span class="hamburger__bar hamburger__bar--3"></span>
+          </button>
           <a href="/" class="main-logo">
             <svg width="160" height="66">
               <use href="svg/nerds-logo.svg#nerds"></use>
             </svg>
           </a>
-
-          <ul class="header__list">
-            <li>
-              <a href="#" class="header__link">Studio</a>
-            </li>
-            <li>
-              <a href="#" class="header__link">Clients</a>
-            </li>
-            <li>
-              <a href="#" class="header__link">Shop</a>
-            </li>
-            <li>
-              <a href="#" class="header__link">Contacts</a>
-            </li>
-          </ul>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li>
+                <a href="#" class="header__link">Studio</a>
+              </li>
+              <li>
+                <a href="#" class="header__link">Clients</a>
+              </li>
+              <li>
+                <a href="#" class="header__link">Shop</a>
+              </li>
+              <li>
+                <a href="#" class="header__link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
 
           <button class="header__cart-btn" type="button">
             <svg width="15" height="15">
