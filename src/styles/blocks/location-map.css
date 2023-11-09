@@ -1,0 +1,47 @@
+.location-map {
+  background-image: url("/images/map.webp");
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-color: #eee;
+  height: 416px;
+  padding: 54px 0;
+  position: relative;
+}
+
+.location-map__info-box {
+  background-color: var(--color-secondary);
+  max-width: 319px;
+  text-align: left;
+  padding: 47px 50px;
+  font-style: normal;
+}
+
+.location-map__heading {
+  margin-bottom: 23px;
+  font-size: 18px;
+}
+
+.location-map__adress {
+  color: #666;
+  margin-bottom: 20px;
+  display: inline-block;
+  line-height: 112%;
+}
+
+.location-map__phone-number {
+  color: #666;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.location-map__map-marker {
+  position: absolute;
+  top: 86px;
+  left: 822px;
+}
+
+@media (width <=1053px) {
+  .location-map__map-marker {
+    display: none;
+  }
+}
