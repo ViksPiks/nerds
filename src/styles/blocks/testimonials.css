@@ -1,0 +1,16 @@
+.testimonials {
+  padding: 63px 0 50px;
+  margin-bottom: 80px;
+  border-bottom: 2px solid #eee;
+  text-align: center;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonials__devider {
+  height: 52px;
+  background-color: #eee;
+  width: 2px;
+}
