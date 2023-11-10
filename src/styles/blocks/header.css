@@ -24,6 +24,10 @@
   padding: 10px;
 }
 
+.header__link--active {
+  box-shadow: 0 -2px 0 0 var(--color-red) inset;
+}
+
 .header__cart-btn {
   background-color: transparent;
   display: flex;

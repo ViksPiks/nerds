@@ -22,3 +22,10 @@
   color: #283136;
   margin-bottom: 38px;
 }
+
+.jumbotron-secondary {
+  background-image: none;
+  padding: 50px 0 108px;
+  text-align: center;
+  margin-bottom: 55px;
+}
