@@ -82,6 +82,8 @@ select,
 textarea {
   font-family: inherit;
   font-size: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 button {
@@ -105,6 +107,7 @@ button {
 fieldset {
   padding: 0;
   margin: 0;
+  border: none;
 }
 
 input[type="checkbox"] {

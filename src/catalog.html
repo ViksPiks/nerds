@@ -62,6 +62,39 @@
     </div>
 
     <main>
+      <section class="catalog">
+        <div class="container">
+          <form class="catalog-filters" method="post">
+            <fieldset class="catalog-filters__fieldset">
+              <legend class="catalog-filters__heading">Price:</legend>
+
+              <div class="filter">
+                <div class="filter__range-wrapper">
+                  <div class="filter__slide-wrapper">
+                    <div class="filter__slide-scale">
+                      <div class="filter__slide-bar"></div>
+                    </div>
+                    <button class="filter-range-btn"></button>
+                    <button
+                      class="filter-range-btn filter-range-btn--max"
+                    ></button>
+                  </div>
+                </div>
+
+                <div class="filter__from-to">
+                  <label
+                    >from <input type="text" name="min-range" value="0"
+                  /></label>
+                  <label
+                    >to <input type="text" name="max-range" value="15000"
+                  /></label>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
       <section class="location-map">
         <div class="container">
           <address class="location-map__info-box">
