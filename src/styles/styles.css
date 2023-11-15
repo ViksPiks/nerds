@@ -18,3 +18,5 @@
 @import url("blocks/location-map.css");
 
 /* Catalog */
+@import url("blocks/filter.css");
+@import url("blocks/catalog-filters.css");
