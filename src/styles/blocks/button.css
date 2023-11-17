@@ -39,3 +39,12 @@
 .button--small-yellow:hover {
   background-color: #eab534;
 }
+
+.button--grey {
+  color: var(--color-primary);
+  padding: 15px 88px;
+}
+
+.button--grey:hover {
+  background-color: #dfdfdf;
+}
