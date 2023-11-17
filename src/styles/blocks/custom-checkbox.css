@@ -1,0 +1,33 @@
+.custom-checkbox {
+  position: relative;
+}
+
+.custom-checkbox__label {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: #283136;
+}
+
+.custom-checkbox__label::before {
+  content: "";
+  width: 23px;
+  height: 23px;
+  border: 2px solid #ababab;
+  border-radius: 3px;
+}
+
+.custom-checkbox__label::after {
+  content: "";
+  position: absolute;
+  background-image: url("/svg/checked.svg");
+  width: 21.57px;
+  height: 16.76px;
+  left: 4px;
+  bottom: 5px;
+  display: none;
+}
+
+.custom-checkbox__input:checked + .custom-checkbox__label::after {
+  display: block;
+}
