@@ -1,0 +1,49 @@
+.catalog-templates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.catalog-templates__card {
+  position: relative;
+}
+
+.catalog-templates__card::before {
+  content: "";
+  width: 360px;
+  height: 40px;
+  background-color: #eee;
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+
+.catalog-templates__card:hover::before {
+  background-color: #4d4d4d;
+}
+
+.circle-btn {
+  width: 14px;
+  height: 14px;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  position: absolute;
+  top: 13px;
+  left: 16px;
+}
+
+.btn-2 {
+  left: 38px;
+}
+
+.btn-3 {
+  left: 61px;
+}
+
+.catalog-templates__card img {
+  border: 1px solid #dadada;
+  border-radius: 0 0 5px 5px;
+}
+
+.catalog-templates__card img:hover {
+  box-shadow: 0 6px 15px 0 rgb(0 1 1 / 25%);
+}

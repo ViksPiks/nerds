@@ -64,124 +64,189 @@
     <main>
       <section class="catalog">
         <div class="container">
-          <form class="catalog-filters" method="post">
-            <fieldset class="catalog-filters__fieldset">
-              <legend
-                class="catalog-filters__heading catalog-filters__heading-price"
-              >
-                Price:
-              </legend>
+          <div class="content-wrapper">
+            <form class="catalog-filters" method="post">
+              <fieldset class="catalog-filters__fieldset">
+                <legend
+                  class="catalog-filters__heading catalog-filters__heading-price"
+                >
+                  Price:
+                </legend>
 
-              <div class="filter">
-                <div class="filter__range-wrapper">
-                  <div class="filter__slide-wrapper">
-                    <div class="filter__slide-scale">
-                      <div class="filter__slide-bar"></div>
+                <div class="filter">
+                  <div class="filter__range-wrapper">
+                    <div class="filter__slide-wrapper">
+                      <div class="filter__slide-scale">
+                        <div class="filter__slide-bar"></div>
+                      </div>
+                      <button class="filter-range-btn"></button>
+                      <button
+                        class="filter-range-btn filter-range-btn--max"
+                      ></button>
                     </div>
-                    <button class="filter-range-btn"></button>
-                    <button
-                      class="filter-range-btn filter-range-btn--max"
-                    ></button>
+                  </div>
+
+                  <div class="filter__from-to">
+                    <label
+                      >from <input type="text" name="min-range" value="0"
+                    /></label>
+                    <label
+                      >to <input type="text" name="max-range" value="15000"
+                    /></label>
                   </div>
                 </div>
+              </fieldset>
+              <fieldset class="catalog-filters__fieldset">
+                <legend class="catalog-filters__heading">Grid:</legend>
 
-                <div class="filter__from-to">
-                  <label
-                    >from <input type="text" name="min-range" value="0"
-                  /></label>
-                  <label
-                    >to <input type="text" name="max-range" value="15000"
-                  /></label>
+                <div class="custom-radio">
+                  <input
+                    type="radio"
+                    id="responsive"
+                    name="grid"
+                    class="custom-radio__input visually-hidden"
+                    checked
+                  />
+                  <label for="responsive" class="custom-radio__label"
+                    >Responsive</label
+                  >
                 </div>
-              </div>
-            </fieldset>
-            <fieldset class="catalog-filters__fieldset">
-              <legend class="catalog-filters__heading">Grid:</legend>
+                <div class="custom-radio">
+                  <input
+                    type="radio"
+                    id="fixed"
+                    name="grid"
+                    class="custom-radio__input visually-hidden"
+                  />
+                  <label for="fixed" class="custom-radio__label">Fixed</label>
+                </div>
+                <div class="custom-radio">
+                  <input
+                    type="radio"
+                    id="rubber"
+                    name="grid"
+                    class="custom-radio__input visually-hidden"
+                  />
+                  <label for="rubber" class="custom-radio__label">Rubber</label>
+                </div>
+              </fieldset>
 
-              <div class="custom-radio">
-                <input
-                  type="radio"
-                  id="responsive"
-                  name="grid"
-                  class="custom-radio__input visually-hidden"
-                  checked
-                />
-                <label for="responsive" class="custom-radio__label"
-                  >Responsive</label
-                >
-              </div>
-              <div class="custom-radio">
-                <input
-                  type="radio"
-                  id="fixed"
-                  name="grid"
-                  class="custom-radio__input visually-hidden"
-                />
-                <label for="fixed" class="custom-radio__label">Fixed</label>
-              </div>
-              <div class="custom-radio">
-                <input
-                  type="radio"
-                  id="rubber"
-                  name="grid"
-                  class="custom-radio__input visually-hidden"
-                />
-                <label for="rubber" class="custom-radio__label">Rubber</label>
-              </div>
-            </fieldset>
+              <fieldset class="catalog-filters__fieldset">
+                <legend class="catalog-filters__heading">Features:</legend>
+                <div class="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    id="slider"
+                    class="custom-checkbox__input visually-hidden"
+                    checked
+                  />
+                  <label for="slider" class="custom-checkbox__label"
+                    >Slider</label
+                  >
+                </div>
+                <div class="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    id="benefits"
+                    class="custom-checkbox__input visually-hidden"
+                  />
+                  <label for="benefits" class="custom-checkbox__label"
+                    >Benefits block</label
+                  >
+                </div>
+                <div class="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    id="news"
+                    class="custom-checkbox__input visually-hidden"
+                  />
+                  <label for="news" class="custom-checkbox__label">News</label>
+                </div>
+                <div class="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    id="gallery"
+                    class="custom-checkbox__input visually-hidden"
+                  />
+                  <label for="galley" class="custom-checkbox__label"
+                    >Gallery</label
+                  >
+                </div>
+                <div class="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    id="cart"
+                    class="custom-checkbox__input visually-hidden"
+                  />
+                  <label for="cart" class="custom-checkbox__label">Cart</label>
+                </div>
+              </fieldset>
+              <button type="submit" class="button button--grey">Show</button>
+            </form>
 
-            <fieldset class="catalog-filters__fieldset">
-              <legend class="catalog-filters__heading">Features:</legend>
-              <div class="custom-checkbox">
-                <input
-                  type="checkbox"
-                  id="slider"
-                  class="custom-checkbox__input visually-hidden"
-                  checked
+            <section class="catalog-templates">
+              <h2 class="visually-hidden">Websites templates</h2>
+              <div class="catalog-templates__card">
+                <div class="circle-btn"></div>
+                <div class="circle-btn btn-2"></div>
+                <div class="circle-btn btn-3"></div>
+                <img
+                  src="images/sedona.webp"
+                  alt="Landing page dedicated to Sedona city"
                 />
-                <label for="slider" class="custom-checkbox__label"
-                  >Slider</label
-                >
               </div>
-              <div class="custom-checkbox">
-                <input
-                  type="checkbox"
-                  id="benefits"
-                  class="custom-checkbox__input visually-hidden"
+
+              <div class="catalog-templates__card">
+                <div class="circle-btn"></div>
+                <div class="circle-btn btn-2"></div>
+                <div class="circle-btn btn-3"></div>
+                <img
+                  src="images/pink.webp"
+                  alt="Page dedicated to web app for photo editing"
                 />
-                <label for="benefits" class="custom-checkbox__label"
-                  >Benefits block</label
-                >
               </div>
-              <div class="custom-checkbox">
-                <input
-                  type="checkbox"
-                  id="news"
-                  class="custom-checkbox__input visually-hidden"
+
+              <div class="catalog-templates__card">
+                <div class="circle-btn"></div>
+                <div class="circle-btn btn-2"></div>
+                <div class="circle-btn btn-3"></div>
+                <img
+                  src="images/barbershop.webp"
+                  alt="Landing page dedicated to Barbershop "
                 />
-                <label for="news" class="custom-checkbox__label">News</label>
               </div>
-              <div class="custom-checkbox">
-                <input
-                  type="checkbox"
-                  id="gallery"
-                  class="custom-checkbox__input visually-hidden"
+
+              <div class="catalog-templates__card">
+                <div class="circle-btn"></div>
+                <div class="circle-btn btn-2"></div>
+                <div class="circle-btn btn-3"></div>
+                <img
+                  src="images/mishka.webp"
+                  alt="Landing page dedicated to knitted toys"
                 />
-                <label for="galley" class="custom-checkbox__label"
-                  >Gallery</label
-                >
               </div>
-              <div class="custom-checkbox">
-                <input
-                  type="checkbox"
-                  id="cart"
-                  class="custom-checkbox__input visually-hidden"
+
+              <div class="catalog-templates__card">
+                <div class="circle-btn"></div>
+                <div class="circle-btn btn-2"></div>
+                <div class="circle-btn btn-3"></div>
+                <img
+                  src="images/aplus.webp"
+                  alt="Landing page dedicated online courses"
                 />
-                <label for="cart" class="custom-checkbox__label">Cart</label>
               </div>
-            </fieldset>
-            <button type="submit" class="button button--grey">Show</button>
-          </form>
+
+              <div class="catalog-templates__card">
+                <div class="circle-btn"></div>
+                <div class="circle-btn btn-2"></div>
+                <div class="circle-btn btn-3"></div>
+                <img
+                  src="images/kvast.webp"
+                  alt="Landing page dedicated to beer"
+                />
+              </div>
+            </section>
+          </div>
         </div>
       </section>
 
