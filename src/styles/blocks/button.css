@@ -43,6 +43,7 @@
 .button--grey {
   color: var(--color-primary);
   padding: 15px 88px;
+  background-color: #eee;
 }
 
 .button--grey:hover {
