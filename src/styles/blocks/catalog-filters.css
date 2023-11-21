@@ -14,3 +14,10 @@
 .catalog-filters__heading-price {
   margin-bottom: 48px;
 }
+
+@media (width <= 1077px) {
+  .catalog-filters__fieldset {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

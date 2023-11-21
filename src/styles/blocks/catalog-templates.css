@@ -49,3 +49,16 @@
   box-shadow: 0 6px 15px 0 rgb(0 1 1 / 25%);
   transition: 1s;
 }
+
+@media (width <= 1077px) {
+  .catalog-templates {
+    grid-template-columns: repeat(2, max-content);
+    place-content: center;
+  }
+}
+
+@media (width <= 803px) {
+  .catalog-templates {
+    grid-template-columns: 1fr;
+  }
+}

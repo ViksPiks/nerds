@@ -22,3 +22,10 @@
 .pagination__link:hover {
   background-color: #dfdfdf;
 }
+
+@media (width <= 1077px) {
+  .pagination {
+    grid-column: 1;
+    place-items: center;
+  }
+}
