@@ -80,9 +80,13 @@
                       <div class="filter__slide-scale">
                         <div class="filter__slide-bar"></div>
                       </div>
-                      <button class="filter-range-btn"></button>
+                      <button
+                        class="filter-range-btn"
+                        aria-label="min-range"
+                      ></button>
                       <button
                         class="filter-range-btn filter-range-btn--max"
+                        aria-label="max-range"
                       ></button>
                     </div>
                   </div>
@@ -198,16 +202,28 @@
                         >Price</a
                       >
                     </li>
-                    <li><a href="#" class="catalog-sortby__link">Type</a></li>
-                    <li><a href="#" class="catalog-sortby__link">Name</a></li>
+                    <li>
+                      <a href="#" class="catalog-sortby__link">Type</a>
+                    </li>
+                    <li>
+                      <a href="#" class="catalog-sortby__link">Name</a>
+                    </li>
                   </ul>
                   <div class="catalog-sortby__arrows">
-                    <a href="#" class="catalog-sortby__link">
+                    <a
+                      href="#"
+                      class="catalog-sortby__link"
+                      aria-label="descending order"
+                    >
                       <svg width="11" height="10">
                         <use href="svg/icon-down.svg#down"></use>
                       </svg>
                     </a>
-                    <a href="#" class="catalog-sortby__link">
+                    <a
+                      href="#"
+                      class="catalog-sortby__link"
+                      aria-label="ascending order"
+                    >
                       <svg width="11" height="10">
                         <use href="svg/icon-up.svg#up"></use>
                       </svg>
