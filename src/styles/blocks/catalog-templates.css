@@ -10,7 +10,7 @@
 
 .catalog-templates__card::before {
   content: "";
-  width: 360px;
+  width: 364px;
   height: 40px;
   background-color: #eee;
   display: block;
@@ -42,12 +42,13 @@
 
 .catalog-templates__card img {
   border: 1px solid #dadada;
+  background-color: #eee;
   border-radius: 0 0 5px 5px;
 }
 
 .catalog-templates__card img:hover {
   box-shadow: 0 6px 15px 0 rgb(0 1 1 / 25%);
-  transition: 1s;
+  transition: 0.3s;
 }
 
 @media (width <= 1077px) {
