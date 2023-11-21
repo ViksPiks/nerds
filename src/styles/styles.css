@@ -18,10 +18,11 @@
 @import url("blocks/location-map.css");
 
 /* Catalog */
-@import url("blocks/filter.css");
+@import url("blocks/content-wrapper.css");
 @import url("blocks/catalog-filters.css");
+@import url("blocks/filter.css");
 @import url("blocks/custom-radio.css");
 @import url("blocks/custom-checkbox.css");
+@import url("blocks/catalog-sortby.css");
 @import url("blocks/catalog-templates.css");
-@import url("blocks/content-wrapper.css");
 @import url("blocks/padination.css");
