@@ -19,6 +19,7 @@
 
 .catalog-templates__card:hover::before {
   background-color: #4d4d4d;
+  transition: 1s;
 }
 
 .circle-btn {
@@ -46,4 +47,5 @@
 
 .catalog-templates__card img:hover {
   box-shadow: 0 6px 15px 0 rgb(0 1 1 / 25%);
+  transition: 1s;
 }

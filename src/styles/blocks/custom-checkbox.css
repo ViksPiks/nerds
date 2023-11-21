@@ -28,6 +28,10 @@
   display: none;
 }
 
+.custom-checkbox__label:hover::before {
+  border-color: #4d4d4d;
+}
+
 .custom-checkbox__input:checked + .custom-checkbox__label::after {
   display: block;
 }
