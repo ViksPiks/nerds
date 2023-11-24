@@ -21,6 +21,8 @@
 
 .pagination__link:hover {
   background-color: #dfdfdf;
+  transition: 0.3s;
+  pointer-events: none;
 }
 
 @media (width <= 1077px) {
